@@ -29,4 +29,5 @@ function calculatesFarePrice(start, destination){
   } else {
     price = "cannot travel that far"
   }
+  return price
 }
