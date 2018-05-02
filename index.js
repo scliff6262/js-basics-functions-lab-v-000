@@ -19,7 +19,7 @@ function distanceTravelledInFeet(street1, street2){
 
 function calculatesFarePrice(start, destination){
   let price;
-  const distance = distanceTravelledInFeet(start, destinatin)
+  const distance = distanceTravelledInFeet(start, destination)
     if(distance <= 400){
     price = 0
   } else if(distance > 2000 && distance < 2500){
