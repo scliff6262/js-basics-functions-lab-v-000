@@ -6,4 +6,5 @@ function distanceFromHqInBlocks(street){
   } else {
     answer = 42 - street
   }
+  return answer
 }
