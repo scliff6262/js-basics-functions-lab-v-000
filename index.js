@@ -23,6 +23,6 @@ function calculatesFarePrice(start, destination){
   if(distance <= 400){
     price = 0
   } else {
-    (distance - 400)
+    price = (distance - 400) * .02
   }
 }
